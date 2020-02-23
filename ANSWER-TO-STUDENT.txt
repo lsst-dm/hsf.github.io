@@ -1,0 +1,20 @@
+
+Thank you very much for contacting us and for your interest in CERN SFT GSoC 2020 projects. For project XRootDKubernetes, please take a look at the detailed description here: https://hepsoftwarefoundation.org/gsoc/2020/proposal_XRootDKubernetes.html for possible proposal ideas.
+Please be sure to send us your CV and other relevant information highlighting your relevant experience.
+To be considered for the project, please complete the following warm-up exercise:
+
+Exercise instructions
+1. Install the qserv-operator, following documentation: https://github.com/lsst/qserv-operator#qserv-operator, then install a Qserv instance on Kubernetes, then run 'kubectl get pods' and integration tests and send the output to mentors.
+2. Build the qserv-operator, following documentation: https://github.com/lsst/qserv-operator#build-qserv-operator, then add a field in Qserv CRD description and add a field "spec.xrootd.replicas" in file https://github.com/lsst/qserv-operator/blob/master/deploy/crds/qserv_v1alpha1_qserv_cr.yaml which allow to start additional xrootd redirectors, implement support for this field in the qserv-operator and send a github PR to mentors.
+
+Feel free to ask for any information regarding the process above, there may be some problems as the code in not yet in a stable version. Communication between you and the mentors is part of the exercice.
+
+If you have further questions, please contact the project mentors:
+- fabrice.jammes@clermont.in2p3.fr
+- abh@slac.stanford.edu
+- yvan.calas@cc.in2p3.fr
+
+Best regards,
+
+Prospective Mentor
+Fabrice Jammes
